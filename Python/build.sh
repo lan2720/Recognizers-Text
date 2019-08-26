@@ -28,6 +28,9 @@ pip install -e ./libraries/recognizers-sequence/
 echo // Installing recognizers-suite
 pip install -e ./libraries/recognizers-suite/
 
+echo // Installing datatypes-timex-expression
+pip install -e ./libraries/datatypes-timex-expression
+
 echo // Installing Test Dependencies
 pip install -r ./tests/requirements.txt
 

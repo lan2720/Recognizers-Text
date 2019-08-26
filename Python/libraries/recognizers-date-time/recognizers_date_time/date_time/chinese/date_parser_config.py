@@ -124,7 +124,7 @@ class ChineseDateParserConfiguration(DateParserConfiguration):
     def get_swift_day(self, source: str) -> int:
         source = source.strip().lower()
         swift = 0
-        if source in ['今天', '今日', '最近']:
+        if source in ['今天', '今日', '近日', '最近']:
             swift = 0
         elif source.startswith('明'):
             swift = 1
